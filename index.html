@@ -4,11 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
-</head>
-<body>
+    <title>Tic-Tac-Toe Game</title>
 
-    <script scr="assets/js/script.js"></script>
     
+    </head>
+    <body>
+      <div class="container">
+        <h1>Tic-Tac-Toe Game</h1>
+    
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+          <p>Player 1 (X): <span id="player1-score">0</span></p>
+          <p>Player 2 (O): <span id="player2-score">0</span></p>
+        </div>
+    
+        <!-- Turn indicator -->
+        <p class="turn-indicator" id="turn-indicator">Player 1's turn (X)</p>
+    
+        <!-- Game Board -->
+        <div class="board" id="board">
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+          <div class="cell" data-cell></div>
+        </div>
+    
+        <!-- Game feedback message -->
+        <p class="feedback" id="feedback"></p>
+    
+        <!-- Play Again Button -->
+        <button id="play-again" class="hidden">Play Again</button>
+      </div>
+    
+      <!-- Link the JavaScript file -->
+    
+    <script scr="assets/js/script.js"></script>
 </body>
 </html>
