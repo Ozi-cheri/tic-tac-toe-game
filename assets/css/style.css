@@ -64,7 +64,8 @@ header p {
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  /* Removed the gap between cells */
+  gap: 0;
   margin-bottom: 20px;
 }
 
@@ -77,6 +78,8 @@ header p {
   align-items: center;
   font-size: 2.5em;
   cursor: pointer;
+  /* Ensure the borders of the cells fit together */
+  border-collapse: collapse;
 }
 
 #game-status {
