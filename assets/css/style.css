@@ -32,15 +32,32 @@ header p {
   color: darkgray;
 }
 
-/* Scoreboard */
-.scoreboard {
-  margin: 20px 0;
+/* Scoreboard directly on the game board */
+.scoreboard-board {
   display: flex;
   justify-content: space-around;
+  margin: 20px 0;
 }
 
-.scoreboard p {
-  font-size: 1.2em;
+.scoreboard-board .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scoreboard-board h3 {
+  font-size: 1.5em;
+  color: lightblue;
+}
+
+.scoreboard-board p {
+  font-size: 1.5em;
+  color: pastel yellow;
+}
+
+.scoreboard-board span {
+  font-size: 2em;
+  color: pastel yellow;
 }
 
 /* Game board */
@@ -91,5 +108,13 @@ header p {
 
   .container {
       padding: 10px;
+  }
+
+  .scoreboard-board p {
+      font-size: 1.2em;
+  }
+
+  .scoreboard-board span {
+      font-size: 1.5em;
   }
 }

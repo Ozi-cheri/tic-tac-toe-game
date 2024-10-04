@@ -16,7 +16,7 @@
         <details class="Click Here How to Play">
           <summary><br>Click On The Arrow Above For  How to Play</summary>
           <p>
-            Player 1 is X, while player 2 is O.<br>
+            This game consist of player X and player O.<br>
             Players take turn by clicking on the grid to place their mark.<br>
             The first player to get 3 marks in a row,horizontally, vertically or diagonally,"wins"<br>
             If the cells are filled up and no one wins, the game is declared a draw.<br>
@@ -25,33 +25,38 @@
         </details>
         </header>
     
-        <!-- Scoreboard -->
-        <div class="scoreboard">
-          <p>Player 1 (X): <span id="player1-score">0</span></p>
-          <p>Player 2 (O): <span id="player2-score">0</span></p>
-        </div>
-    
-        <!-- Turn indicator -->
-        <p class="turn-indicator" id="turn-indicator">Player 1's turn (X)</p>
+        <!-- Scoreboard with labels -->
+        <div class="scoreboard-board">
+          <div class="player">
+              <h3>Player X</h3>
+              <p>Score: <span id="playerX-score">0</span></p>
+          </div>
+          <div class="player">
+              <h3>Player O</h3>
+              <p>Score: <span id="playerO-score">0</span></p>
+          </div>
+      </div>
+
+      <div id="game-status">Player X's turn</div>
     
         <!-- Game Board -->
         <div class="board" id="board">
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-          <div class="cell" data-cell></div>
-        </div>
+          <div class="cell" data-index="0"></div>
+          <div class="cell" data-index="1"></div>
+          <div class="cell" data-index="2"></div>
+          <div class="cell" data-index="3"></div>
+          <div class="cell" data-index="4"></div>
+          <div class="cell" data-index="5"></div>
+          <div class="cell" data-index="6"></div>
+          <div class="cell" data-index="7"></div>
+          <div class="cell" data-index="8"></div>
+      </div>
     
         <!-- Game feedback message -->
         <p class="feedback" id="feedback"></p>
     
-        <!-- Play Again Button -->
-        <button id="play-again" class="hidden">Play Again</button>
+        <!-- Restart Button -->
+        <button id="restart-button">Play Again</button>
       </div>
     
       <!-- Link the JavaScript file -->
