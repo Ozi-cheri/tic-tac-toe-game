@@ -1,0 +1,45 @@
+/* General reset and responsive styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Game container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header h1 {
+  color: lightblue;
+  font-size: 2.5em;
+}
+
+header p {
+  color: darkgray;
+}
+
+/* Scoreboard */
+.scoreboard {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.scoreboard p {
+  font-size: 1.2em;
+}
+
