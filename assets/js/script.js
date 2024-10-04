@@ -1,3 +1,4 @@
+// Game state variables
 let board = ['', '', '', '', '', '', '', '', ''];
 let currentPlayer = 'X';
 let gameOver = false;
@@ -27,3 +28,41 @@ function checkWin() {
             winner = board[a];
         }
     });
+
+    if (winner) {
+        gameOver = true;
+        updateStatus(`Player ${winner} wins!`);
+        scores[winner]++;
+        document.getElementById(`player${winner}-score`).innerText = scores[winner];
+    } else if (!board.includes('')) {
+        gameOver = true;
+        updateStatus("It's a draw!");
+    }
+}
+
+function handleCellClick(event) {
+    const index = event.target.dataset.index;
+    if (board[index] || gameOver) return;
+
+    board[index] = currentPlayer;
+    event.target.innerText = currentPlayer;
+    checkWin();
+
+    if (!gameOver) {
+        currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        updateStatus(`Player ${currentPlayer}'s turn`);
+    }
+}
+
+function restartGame() {
+    board = ['', '', '', '', '', '', '', '', ''];
+    gameOver = false;
+    currentPlayer = 'X';
+    document.querySelectorAll('.cell').forEach(cell => cell.innerText = '');
+    updateStatus(`Player ${currentPlayer}'s turn`);
+}
+
+document.querySelectorAll('.cell').forEach(cell => {
+    cell.addEventListener('click', handleCellClick);
+});
+document.getElementById('restart-button').addEventListener('click', restartGame);
