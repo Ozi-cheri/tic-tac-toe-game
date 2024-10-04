@@ -43,3 +43,53 @@ header p {
   font-size: 1.2em;
 }
 
+/* Game board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cell {
+  background-color: pastel yellow;
+  border: 2px solid lightblue;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+#game-status {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+/* Restart button */
+#restart-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#restart-button:hover {
+  background-color: darkblue;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .cell {
+      height: 80px;
+      font-size: 2em;
+  }
+
+  .container {
+      padding: 10px;
+  }
+}
