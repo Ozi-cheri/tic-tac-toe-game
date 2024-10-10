@@ -120,3 +120,40 @@ header p {
     font-size: 1.5em;
   }
 }
+
+.error-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  color: white;
+}
+
+.error-container h1 {
+  font-size: 100px;
+  margin: 0;
+  color: pastel yellow;
+}
+
+.error-container p {
+  font-size: 24px;
+  margin-top: 10px;
+  color: beige;
+}
+
+.error-container a {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: beige;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.error-container a:hover {
+  background-color: pastel yellow;
+}
