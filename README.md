@@ -15,3 +15,14 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Browser Compatibility](#browser-compatibility)
 - [Future Enhancements](#future-enhancements)
 - [Acknowledgments](#acknowledgments)
+
+## Features
+- **Two-player game**: Alternates turns between Player X and Player O.
+- **Scoreboard**: Tracks each player’s score throughout multiple rounds.
+- **Player Turn Indicator**: Clearly indicates whose turn it is.
+- **Win and Draw Detection**: Declares the winner when a player gets three marks in a row (horizontally, vertically, or diagonally), or announces a draw when the board is full.
+- **Restart Button**: Allows players to reset the board and start a new game without resetting the scores.
+- **Responsive Design**: Optimized for both mobile and desktop devices.
+- **Custom 404 Page**: A friendly error page to handle incorrect URLs.
+- **Favicon**: A custom favicon that matches the game's theme.
+
