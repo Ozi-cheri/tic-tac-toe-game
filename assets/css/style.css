@@ -108,7 +108,11 @@ header p {
   }
 
   header h1 {
-    font-size: 2em;
+    font-size: 1.8em;
+  }
+
+  header p {
+    font-size: 1em;
   }
 
   .container {
