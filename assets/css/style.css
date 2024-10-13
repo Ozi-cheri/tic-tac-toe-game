@@ -56,7 +56,7 @@ header p {
 
 .scoreboard-board span {
   font-size: 1.5em;
-  
+
 }
 
 
@@ -69,7 +69,7 @@ header p {
 }
 
 .cell {
-  
+
   border: 2px solid #397979;
   height: 100px;
   display: flex;
@@ -102,15 +102,18 @@ header p {
   color: white;
 }
 
-
 @media (max-width: 600px) {
-  .cell {
-    height: 80px;
-    font-size: 1.8em;
+  body {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 2em;
   }
 
   .container {
     padding: 10px;
+    margin-top: 20px;
   }
 
   .scoreboard-board p {
@@ -118,9 +121,15 @@ header p {
   }
 
   .scoreboard-board span {
-    font-size: 1.2em;
+    font-size: 1.5em;
+  }
+
+  .cell {
+    height: 80px;
+    font-size: 2em;
   }
 }
+
 
 .error-container {
   height: 100vh;
