@@ -11,7 +11,6 @@ body {
   padding: 20px;
 }
 
-
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -21,7 +20,6 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 header h1 {
   color: #397979;
   font-size: 2.5em;
@@ -30,7 +28,6 @@ header h1 {
 header p {
   color: black;
 }
-
 
 .scoreboard-board {
   display: flex;
@@ -51,14 +48,11 @@ header p {
 
 .scoreboard-board p {
   font-size: 1.2em;
-
 }
 
 .scoreboard-board span {
   font-size: 1.5em;
-
 }
-
 
 .board {
   display: grid;
@@ -86,7 +80,6 @@ header p {
   font-size: 1.5em;
 }
 
-
 #restart-button {
   padding: 10px 20px;
   font-size: 1.2em;
@@ -103,21 +96,13 @@ header p {
 }
 
 @media (max-width: 600px) {
-  body {
-    padding: 10px;
-  }
-
-  header h1 {
-    font-size: 1.8em;
-  }
-
-  header p {
-    font-size: 1em;
+  .cell {
+    height: 80px;
+    font-size: 2em;
   }
 
   .container {
     padding: 10px;
-    margin-top: 20px;
   }
 
   .scoreboard-board p {
@@ -128,12 +113,17 @@ header p {
     font-size: 1.5em;
   }
 
-  .cell {
-    height: 80px;
-    font-size: 2em;
+  header h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+
+  #restart-button {
+    padding: 8px 16px;
+    font-size: 1em;
+    margin-top: 20px;
   }
 }
-
 
 .error-container {
   height: 100vh;
