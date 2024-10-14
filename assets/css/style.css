@@ -101,8 +101,18 @@ header p {
     font-size: 2em;
   }
 
+  body { 
+    padding: 5px;
+  }
+
   .container {
     padding: 10px;
+    margin:auto;
+    max-width: 100%;
+  }
+
+  .scoreboard-board {
+    margin-bottom: 15px;
   }
 
   .scoreboard-board p {
@@ -115,7 +125,7 @@ header p {
 
   header h1 {
     font-size: 1.8em;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   #restart-button {
