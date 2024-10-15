@@ -5,14 +5,12 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-color: lightgray;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
 }
-
 
 .container {
   max-width: 600px;
@@ -23,26 +21,24 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+header {
+  margin-bottom: 10px; 
+}
 
 header h1 {
   color: #397979;
-  font-size: 2.5em;
+  font-size: 2em; 
+  margin-bottom: 10px; 
 }
-
-.game-wrapper {
-  margin-top: 20px;
-}
-
 
 header p {
   color: black;
 }
 
-
 .scoreboard-board {
   display: flex;
   justify-content: space-around;
-  margin: 20px 0;
+  margin: 10px 0; 
 }
 
 .scoreboard-board .player {
@@ -57,15 +53,14 @@ header p {
 }
 
 .scoreboard-board p {
-  font-size: 1.5em;
-  color: black;
+  font-size: 1.2em;
+  color: black; 
 }
 
 .scoreboard-board span {
   font-size: 2em;
-  color: black;
+  color: #397979;
 }
-
 
 .board {
   display: grid;
@@ -75,30 +70,22 @@ header p {
 }
 
 .cell {
-  background-color: lightyellow;
+  background-color: lightyellow; 
   border: 2px solid #397979;
-  height: 100px;
+  height: 80px; 
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2.5em;
+  font-size: 2em;
   cursor: pointer;
 }
 
 #game-status {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 1.5em;
 }
 
-
-.button-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  gap: 10px; 
-}
-
-button, .how-to-play summary {
+#restart-button, #how-to-play-button {
   padding: 10px 20px;
   font-size: 1.2em;
   background-color: lightblue;
@@ -106,28 +93,33 @@ button, .how-to-play summary {
   color: black;
   cursor: pointer;
   border-radius: 5px;
-  flex: 1;
+  margin: 5px;
 }
 
-button:hover, .how-to-play summary:hover {
+#restart-button:hover, #how-to-play-button:hover {
   background-color: #397979;
   color: white;
 }
 
-.how-to-play {
-  position: relative;
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px; 
 }
 
-.how-to-play[open] p {
+details[open] summary {
+  margin-bottom: 15px;
+}
+
+details[open] p {
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  transform: translateY(-100%); 
+  width: 90%;
+  left: 5%;
   background-color: beige;
   padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -171,8 +163,12 @@ button:hover, .how-to-play summary:hover {
 
 @media (max-width: 600px) {
   .cell {
-    height: 80px;
-    font-size: 2em;
+    height: 60px; 
+    font-size: 1.8em;
+  }
+
+  header h1 {
+    font-size: 1.8em; 
   }
 
   .container {
@@ -180,20 +176,15 @@ button:hover, .how-to-play summary:hover {
   }
 
   .scoreboard-board p {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .scoreboard-board span {
     font-size: 1.5em;
   }
 
-  .button-wrapper {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  button, .how-to-play summary {
-    margin-top: 15px;
+  #restart-button, #how-to-play-button {
+    font-size: 1em;
+    padding: 8px 16px;
   }
 }
