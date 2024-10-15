@@ -1,8 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 body {
   background-color: lightgray;
@@ -10,6 +12,7 @@ body {
   text-align: center;
   padding: 20px;
 }
+
 
 .container {
   max-width: 600px;
@@ -20,14 +23,21 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+
 header h1 {
   color: #397979;
   font-size: 2.5em;
 }
 
+.game-wrapper {
+  margin-top: 20px;
+}
+
+
 header p {
   color: black;
 }
+
 
 .scoreboard-board {
   display: flex;
@@ -42,28 +52,30 @@ header p {
 }
 
 .scoreboard-board h3 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #397979;
 }
 
 .scoreboard-board p {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: black;
 }
 
 .scoreboard-board span {
-  font-size: 1.5em;
+  font-size: 2em;
+  color: black;
 }
+
 
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   gap: 0;
   margin-bottom: 20px;
 }
 
 .cell {
-
+  background-color: lightyellow;
   border: 2px solid #397979;
   height: 100px;
   display: flex;
@@ -71,8 +83,6 @@ header p {
   align-items: center;
   font-size: 2.5em;
   cursor: pointer;
-
-  border-collapse: collapse;
 }
 
 #game-status {
@@ -80,7 +90,15 @@ header p {
   font-size: 1.5em;
 }
 
-#restart-button {
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 10px; 
+}
+
+button, .how-to-play summary {
   padding: 10px 20px;
   font-size: 1.2em;
   background-color: lightblue;
@@ -88,49 +106,30 @@ header p {
   color: black;
   cursor: pointer;
   border-radius: 5px;
+  flex: 1;
 }
 
-#restart-button:hover {
+button:hover, .how-to-play summary:hover {
   background-color: #397979;
   color: white;
 }
 
-@media (max-width: 600px) {
-  .cell {
-    height: 80px;
-    font-size: 2em;
-  }
-
-  body {
-    padding: 5px;
-  }
-
-  .container {
-    padding: 10px;
-    margin-top: 20px;
-  }
-
-  .scoreboard-board {
-    margin-bottom: 15px;
-  }
-
-  .scoreboard-board p {
-    font-size: 1.2em;
-  }
-
-  .scoreboard-board span {
-    font-size: 1.5em;
-  }
-
-  header h1 {
-    font-size: 1.8em;
-  }
-
-  #restart-button {
-    padding: 10px 15px;
-    font-size: 1em;
-  }
+.how-to-play {
+  position: relative;
 }
+
+.how-to-play[open] p {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: beige;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
 
 .error-container {
   height: 100vh;
@@ -145,7 +144,7 @@ header p {
 .error-container h1 {
   font-size: 100px;
   margin: 0;
-  color: pastel yellow;
+  color: beige;
 }
 
 .error-container p {
@@ -166,5 +165,35 @@ header p {
 }
 
 .error-container a:hover {
-  background-color: pastel yellow;
+  background-color: lightyellow;
+}
+
+
+@media (max-width: 600px) {
+  .cell {
+    height: 80px;
+    font-size: 2em;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .scoreboard-board p {
+    font-size: 1.2em;
+  }
+
+  .scoreboard-board span {
+    font-size: 1.5em;
+  }
+
+  .button-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button, .how-to-play summary {
+    margin-top: 15px;
+  }
 }

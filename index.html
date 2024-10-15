@@ -15,19 +15,10 @@
   <div class="container">
     <header>
       <h1>Tic-Tac-Toe Game</h1>
-
-      <details class="How to Play">
-        <summary><br>Click On The Arrow Above For How to Play</summary>
-        <p>
-          This game consist of player X and player O.<br>
-          Players take turn by clicking on the grid to place their marks.<br>
-          The first player to get 3 marks in a row,horizontally, vertically or diagonally,"wins"<br>
-          If the cells are filled up and no one wins, the game is declared a draw.<br>
-          Click the Play Again button to reset the game.
-        </p>
-      </details>
     </header>
 
+    <div class="game-wrapper"></div>
+    
     <div class="scoreboard-board">
       <div class="player">
         <h3>Player X</h3>
@@ -41,7 +32,6 @@
 
     <div id="game-status">Player X's turn</div>
 
-
     <div class="board" id="board">
       <div class="cell" data-index="0"></div>
       <div class="cell" data-index="1"></div>
@@ -53,9 +43,25 @@
       <div class="cell" data-index="7"></div>
       <div class="cell" data-index="8"></div>
     </div>
+  </div>
+    
+    <div class="button-wrapper">
 
     <button id="restart-button">Play Again</button>
-  </div>
+
+  <details class="how-to-play">
+    <summary id="how-to-play-btn">How to Play</summary>
+    <p>
+      This game consist of player X and player O.
+      Players take turn by clicking on the grid to place their marks.
+      The first player to get 3 marks in a row,horizontally, vertically or diagonally,"wins"
+      If the cells are filled up and no one wins, the game is declared a draw.
+      Click the Play Again button to reset the game.
+    </p>
+  </details>
+ </div>
+</div>
+
 
   <script src="assets/js/script.js"></script>
 </body>
