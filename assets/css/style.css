@@ -6,125 +6,111 @@
 }
 
 body {
-  background-color: lightgray;
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
+  background-color: beige;
+  color: black;
 }
 
 .container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: beige;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 header {
-  margin-bottom: 10px; 
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-header h1 {
-  color: #397979;
-  font-size: 2em; 
-  margin-bottom: 10px; 
-}
-
-header p {
-  color: black;
-}
-
-.scoreboard-board {
-  display: flex;
-  justify-content: space-around;
-  margin: 10px 0; 
-}
-
-.scoreboard-board .player {
+.game-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.scoreboard-board h3 {
-  font-size: 1.5em;
-  color: #397979;
+.scoreboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-.scoreboard-board p {
+.player {
+  text-align: center;
+}
+
+#game-status {
   font-size: 1.2em;
-  color: black; 
-}
-
-.scoreboard-board span {
-  font-size: 2em;
-  color: #397979;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0;
-  margin-bottom: 20px;
+  grid-template-rows: repeat(3, 1fr);
+  width: 450px;
+  height: 450px;
+  background-color: #333; 
 }
 
 .cell {
-  background-color: lightyellow; 
-  border: 2px solid #397979;
-  height: 80px; 
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2em;
+  font-size: 2.5em;
+  background-color: #397979; 
+  border: 1px solid #333;
+  box-sizing: border-box;
   cursor: pointer;
+  width: 100%;
+  height: 100%;
 }
 
-#game-status {
-  margin-bottom: 10px;
-  font-size: 1.5em;
-}
-
-#restart-button, #how-to-play-button {
-  padding: 10px 20px;
-  font-size: 1.2em;
-  background-color: lightblue;
-  border: none;
-  color: black;
-  cursor: pointer;
-  border-radius: 5px;
-  margin: 5px;
-}
-
-#restart-button:hover, #how-to-play-button:hover {
-  background-color: #397979;
-  color: white;
+.cell:hover {
+  background-color: none;
 }
 
 .button-wrapper {
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 10px; 
+  justify-content: space-between;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
 }
 
-details[open] summary {
-  margin-bottom: 15px;
-  z-index: 1;
-  position: relative;
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #397979;
+  color: #fff;
+  cursor: pointer;
+  flex: 1;
+  margin: 0 10px;
 }
 
-details[open] p {
-  position: absolute;
-  transform: translateY(-100%); 
-  width: 90%;
-  left: 5%;
+button:hover {
+  background-color: #555;
+}
+
+#popup-instructions {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: beige;
-  padding: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  z-index: 0;
+  padding: 20px;
+  border: 2px solid #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 400px;
+  z-index: 1000;
 }
 
+.hidden {
+  display: none;
+}
 
 .error-container {
   height: 100vh;
@@ -163,31 +149,36 @@ details[open] p {
   background-color: lightyellow;
 }
 
-
 @media (max-width: 600px) {
+  .board {
+    width: 100%;
+    height: auto;
+  }
+
   .cell {
-    height: 60px; 
+    height: 80px; 
     font-size: 1.8em;
   }
 
   header h1 {
-    font-size: 1.8em; 
+    font-size: 1.8em;
   }
 
   .container {
     padding: 10px;
   }
 
-  .scoreboard-board p {
+  .scoreboard p {
     font-size: 1em;
   }
 
-  .scoreboard-board span {
+  .scoreboard span {
     font-size: 1.5em;
   }
 
-  #restart-button, #how-to-play-button {
+  button {
     font-size: 1em;
     padding: 8px 16px;
   }
 }
+
