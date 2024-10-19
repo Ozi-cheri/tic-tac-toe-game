@@ -18,17 +18,18 @@
     </header>
 
     <div class="game-wrapper"></div>
-      <div class="scoreboard">
-        <div class="player player-left">
-          <h3>Player O</h3>
-          <p>Score: <span id="playerO-score">0</span></p></div>
-          <div id="game-status">Player X's turn</div>
-        
-        <div class="player player-right">
-          <h3>Player X</h3>
-          <p>Score: <span id="playerX-score">0</span></p>
-        </div>
+    <div class="scoreboard">
+      <div class="player player-left">
+        <h3>Player O</h3>
+        <p>Score: <span id="playerO-score">0</span></p>
       </div>
+      <div id="game-status">Player X's turn</div>
+
+      <div class="player player-right">
+        <h3>Player X</h3>
+        <p>Score: <span id="playerX-score">0</span></p>
+      </div>
+    </div>
 
     <div class="board" id="board">
       <div class="cell" data-index="0"></div>
@@ -48,22 +49,23 @@
       <button id="restart-button">Play Again</button>
       <button id="instructions-button">Instructions</button>
     </div>
-      
+
     <div id="popup-instructions" class="hidden">
       <div class="instructions-content">
-      <h2>How To Play</h2>
+        <h2>How To Play</h2>
 
-          <p>
-            This game consist of player X and player O.
-            Players take turn by clicking on the grid to place their marks.
-            The first player to get 3 marks in a row,horizontally, vertically or diagonally,"wins" and the score is been recorded.
-            If the cells are filled up and no one wins, the game is declared a draw.
-            Click the Play Again button to reset the game.
-          </p>
-          <button id="close-instructions-button">Close</button>
-        </div>
+        <p>
+          This game consist of player X and player O.
+          Players take turn by clicking on the grid to place their marks.
+          The first player to get 3 marks in a row,horizontally, vertically or diagonally,"wins" and the score is been
+          recorded.
+          If the cells are filled up and no one wins, the game is declared a draw.
+          Click the Play Again button to reset the game.
+        </p>
+        <button id="close-instructions-button">Close</button>
       </div>
-   </div>
+    </div>
+  </div>
   </div>
 
   <script src="assets/js/script.js"></script>
