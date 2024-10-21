@@ -210,3 +210,14 @@ button:hover {
     padding: 8px 16px;
   }
 }
+
+@media (min-width: 768px) {
+  .board {
+    width: 500px;
+    height: 500px;
+  }
+
+  .cell {
+    font-size: 3em;
+  }
+}
