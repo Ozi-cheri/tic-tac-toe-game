@@ -85,12 +85,11 @@ main {
 
 .button-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 450px;
+  justify-content: space-between;
   margin-top: 20px;
-
 }
+
+
 
 button {
   padding: 10px 20px;
@@ -100,6 +99,16 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
   margin: 0 10px;
+  font-size: 1.8em;
+  
+}
+
+#restart-button {
+  margin-left: 20px;
+}
+
+#instructions-button {
+  margin-right: 20px;
 }
 
 button:hover {
