@@ -23,21 +23,34 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Acknowledgments](#acknowledgments)
 
 ## Features
-- **Two-player game**: Because it is a two player game,they alternates turns between themselves.
+- **Two-player game**: Because it is a two player game,they alternates turns between themselves.It clearly indicates whose turn it is on the board
 
 ![Screenshot](assets/images/screenshot19.png)
 
 - **Header**: The header which is boldy written contains the of the website.
 
+![Screenshot](assets/images/screenshot3.png)
+
 - **Scoreboard**: This tracks each player’s score throughout multiple rounds respectively.
 
-- **Player Turn Indicator**: It clearly indicates whose turn it is on the board
+![Screenshot](assets/images/screenshot4.png)
+
+
 - **Win and Draw Detection**: In this part, it declares the winner when a player gets three marks in a row (horizontally, vertically, or diagonally), or announces a draw when the board is full.
 
-- **Play Again**: The play again button allows players to reset the board and start a new game without resetting the scores.
+![Screenshot](assets/images/screenshot9.png)
 
-- **Responsive Design**: Optimized for both mobile and desktop devices.
-- **404  Error Page**: If a user attempts to visit a non-existent page on the site, they will be directed to a custom 404 error page that includes a friendly message and a link to return to the home page.To test the 404 page, navigate to any incorrect URL (e.g., /non-existent-page).You will be redirected to the 404.html page with the proper styling.
+Reference image when a draw is achieved
+
+![Screenshot](assets/images/screenshot8.png)
+
+- **Play Again**: The play again button allows players to reset the board and start a new game without resetting the scores. 
+
+![Screenshot](assets/images/screenshot7.png)
+
+- **404  Error Page**: If a user attempts to visit a non-existent page on the site, they will be directed to a custom 404 error page that includes a friendly message and a link to return to the home page.To test the 404 page, navigate to any incorrect URL (e.g., /non-existent-page).You will be redirected to the 404.html page.
+
+![Screenshot](assets/images/screenshot15.png)
 
 - **Favicon**: A custom favicon has been included to enhance the game's branding. The favicon file is located in the /assets/favicon/ folder.
 
