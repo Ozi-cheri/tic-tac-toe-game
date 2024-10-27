@@ -77,6 +77,8 @@ so I can easily keep track of my score against my opponent.
 
 ## Color Scheme 
 
+![Screenshot](assets/images/screenshot20.png)
+
 
  * Color: Beige (#F5F5DC). The beige color is used as the background for the entire page, creating a warm and inviting look. 
 
