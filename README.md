@@ -117,8 +117,15 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Evaluates the CSS code, checking for errors in syntax, property usage, and compatibility with standards.
 * [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/): Evaluates web accessibility, ensuring the project meets web content accessibility guidelines.
 * [Am I Responsive](http://ami.responsivedesign.is/): Used to preview how the project appears on different device sizes, ensuring responsiveness across various screens.
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/): It was used to test responsiveness, accessibily.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/): It was used to test responsiveness and  accessibility.
 * [JSHint](https://jshint.com/): It was used to validate  JavaScript code.
+* [Gitpod](https://gitpod.io) : This was used for writting codes, commit and then pushed to Github.
+* [GitHub](https://github.com) : It was used to store the project after pushing.
+
+[Back to Top](#) 
+
+
+
 
 
 
