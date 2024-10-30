@@ -97,7 +97,32 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
  ## Wireframes
 
- 
+
+
+ |             |                                                     |
+ |  Page       |             Mobile  Version                         |
+ |-------------|---------------------------------------------------- |
+ |  Home       |  ![Ref](assets/wireframes/wf-home-mobile.png)       |
+ |             |                                                     |
+ |             |                                                     |
+ |             |                                                     |
+ |             |                                                     |
+ |             |                                                     |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
+ |
 
 
 ## How To Play (Instructions)
