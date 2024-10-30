@@ -99,31 +99,22 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 
 
- |             |                                                     |
- |  Page       |             Mobile  Version                         |
- |-------------|---------------------------------------------------- |
- |  Home       |  ![Ref](assets/wireframes/wf-home-mobile.png)       |
- |             |                                                     |
- |             |                                                     |
- |             |                                                     |
- |             |                                                     |
- |             |                                                     |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
- |
+                                                    
+ |  Page       |             Mobile  Version        |         Desktop Version
+ |-------------|------------------------------------|--------------------------------
+ |  Home       |![Ref](assets/wireframes/image4.png)|![Ref](assets/wireframes/image3.png)
+ |             |                                    |
+ |             |                                    |
+ |             |                                    |
+ |Instructions |![Ref](assets/wireframes/image6.png)|![Ref](assets/wireframes/image5.png)
+ |             |                                    |
+ |             |                                    |
+ |             |                                    |
+ | Page 404    |![Ref](assets/wireframes/image2.png)|![Ref](assets/wireframes/image1.png)
+ |             |                                    |
+ 
 
+[Back to Top](#)
 
 ## How To Play (Instructions)
  * When the instruction button is clicked, the how to play pops up.
