@@ -11,6 +11,7 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [User Stories](#user-stories)
 - [Color Scheme](#color-scheme)
 - [Typography](#typography)
+- [Wireframe](#wireframe)
 - [How to Play](#how-to-play)
 - [Technologies Used](#technologies-used)
 - [Framework Libraries Tools Used](#framework-libraries-tools-used)
@@ -94,7 +95,12 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
  * The font family used for this project is **Arial, sans-serif**, which is known for its readability and modern feel.
  * Sans-serif is used as a fallback in case Arial isn’t available on the user's device.
 
-## Instruction Popup(How to play)
+ ## Wireframes
+
+ 
+
+
+## How To Play (Instructions)
  * When the instruction button is clicked, the how to play pops up.
  The game begins with Player o.Players take turns clicking on empty squares to place their marks (X or O).The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the round.If all squares are filled and no player has three in a row and vise versa, the game declares a draw.To start a new round, click the "Play Again" button. The scores remain, but the board resets for a new game to start.Players can keep track of their scores using the scoreboard above the game board. This section can be closed by using the **close button** below at the left corner.
 
@@ -123,6 +129,9 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 * [GitHub](https://github.com) : It was used to store the project after pushing.
 
 [Back to Top](#) 
+
+
+
 
 
 
