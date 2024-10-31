@@ -146,6 +146,37 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 [Back to Top](#) 
 
+## Testing User Stories
+
+
+|User Story| Acceptance Criteria|    Test Case        |    Expected Result
+|----------|--------------------|---------------------|--------------------     
+|1.Start a |-Game board is      |-Open the game.check |-All cells are empty.     
+|new game  |empty at the start  |if all cells are     |            
+|          |                    |empty.               | 
+|          |                    |                     |
+|2.See     |-Display shows which|-Open the game,      |-Display shows 
+|player    |player's turn it is.|confirm the initial  |correct player
+| turn     |                    |display shows player |turn.
+|          |                    |x's turn.            |
+|          |                    |                     |
+|3.Display |-Player scores      |-Play and win games  |-Scores update 
+| score    |are visible.it      |as player x and o.   |accurately.
+|          |updates after each  |Check if each players|
+|          |game.               |scores increase  as  |
+|          |                    |the play.            |
+|          |                    |                     |
+|4.Play    |-Button is visible  |-When clicked,it     |-It resets the 
+| again    |and clickable.      |reset the board to   |game board.
+|          |                    |empty.               |
+|          |                    |                     |
+|5.How to  |-Insruction button  |-When clicked, it    |When clicked pops up
+|Play      |is visible and      |displays how to      |how to play,close
+|          |clickable.          |play.Close button    |button functional.
+|          |                    |visible and clickable|
+
+
+
 
 
 
