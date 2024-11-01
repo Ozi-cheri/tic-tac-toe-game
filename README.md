@@ -16,8 +16,9 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Technologies Used](#technologies-used)
 - [Framework Libraries Tools Used](#framework-libraries-tools-used)
 - [Testing](#testing)
-- [Responsive Design](#responsive-design)
-- [Future Enhancements](#future-enhancements)
+- [Code Validation](#code-validation)
+- [Accessbility](#accessbility)
+- [Manual Testing](#manual-testing)
 - [Browser Compatibility](#browser-compatibility)
 - [Future Enhancements](#future-enhancements)
 - [Deployment](#deployment)
@@ -143,10 +144,14 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 * [JSHint](https://jshint.com/): It was used to validate  JavaScript code.
 * [Gitpod](https://gitpod.io) : This was used for writting codes, commit and then pushed to Github.
 * [GitHub](https://github.com) : It was used to store the project after pushing.
+* [Balsamiq](https://balsamiq.com/) : This was used to create wireframes for both mobile and desktop versions.
+
+
 
 [Back to Top](#) 
+ 
 
-## Testing User Stories
+ ## Testing User Stories
 
 
 |User Story| Acceptance Criteria|    Test Case        |    Expected Result
@@ -164,7 +169,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 | score    |are visible.it      |as player x and o.   |accurately.
 |          |updates after each  |Check if each players|
 |          |game.               |scores increase  as  |
-|          |                    |the play.            |
+|          |                    |they play.           |
 |          |                    |                     |
 |4.Play    |-Button is visible  |-When clicked,it     |-It resets the 
 | again    |and clickable.      |reset the board to   |game board.
@@ -175,6 +180,42 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 |          |clickable.          |play.Close button    |button functional.
 |          |                    |visible and clickable|
 
+
+## Code Validation
+
+ * All HTML, CSS, and JavaScript codes for the Tic-Tac-Toe game has been validated using [W3C HTML Validator](https://validator.w3.org/)
+ [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ [JSHint](https://jshint.com/) respectfully, to ensure it meets web standards and is free from syntax errors.
+
+ * HTML Validation
+
+ ![Screenshot](assets/images/screenshot18.png)
+
+ * CSS Validation
+
+ ![Screenshot](assets/images/screenshot17.png)
+
+ * JavaScript Validation
+
+
+
+ ## Accessibility 
+
+ * Google Lighthouse                                                              [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+was used to analyze the quality of the page focusing on performance, accessibility, SEO and best practices.  
+
+**lighthouse Reports**
+
+ * Home Page
+
+ ![Screenshot](assets/images/screenshot6.png)
+
+  * 404 Page
+
+ ![Screenshot](assets/images/screenshot5.png)
+
+ 
+ [Back to Top](#) 
 
 
 
