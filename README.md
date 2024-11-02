@@ -3,7 +3,7 @@
 ![Screenshot](assets/images/screenshot1.png)
 
 ## Project Overview
-This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring a clean and responsive design. Players alternate between placing X and O on a 3x3 grid, with the game determining the winner based on standard Tic-Tac-Toe rules. The game also includes a scoreboard, player turn indicator, and a play again option. Additionally, there’s a custom 404 error page for handling non-existent pages.
+This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring a clean and responsive design. Players alternate between placing X and O on a 3x3 grid, with the game determining the winner based on standard Tic-Tac-Toe rules. The game also includes a scoreboard, player turn indicator, and a play again option. Additionally, there’s a custom 404 error page for handling none-existent pages.
 
 ## Table of Contents
 - [Features](#features)
@@ -66,7 +66,7 @@ Reference image when a draw is achieved
 
  * As Player X or Player O,i want to see whose turn it is clearly displayed,so i know when it’s my turn to make a move.
 
- * As a user,i want the game to declare a winner and    update the score automatically and immediately so I can see results right after the game ends.
+ * As a user,i want the game to declare a winner and update the score automatically and immediately so I can see results right after the game ends.
 
  * As a user,i want to be able to restart the game at any time,so I can quickly start over if i make a mistake.
 
@@ -175,9 +175,9 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 | again    |and clickable.      |reset the board to   |game board.
 |          |                    |empty.               |
 |          |                    |                     |
-|5.How to  |-Insruction button  |-When clicked, it    |When clicked pops up
-|Play      |is visible and      |displays how to      |how to play,close
-|          |clickable.          |play.Close button    |button functional.
+|5.How to  |-Instruction button |-When clicked, it    |When clicked,it pops up
+|Play      |is visible and      |displays how to      |how to play.Close 
+|          |clickable.          |play.Close button is |button is functional too.
 |          |                    |visible and clickable|
 
 
@@ -216,6 +216,33 @@ was used to analyze the quality of the page focusing on performance, accessibili
 
  
  [Back to Top](#) 
+
+ ## Manual Testing
+
+ **Browser Compatibility**
+
+
+ * The game was tested on both desktop and mobile versions of each browser to ensure responsive design and optimal functionality. Key functionalities like game board interactions, score display, the play gain and instruction buttons were verified in each browser.
+
+ |  Browser          |  Outcome                    |   Result
+ |-------------------|-----------------------------|-------------------
+ | 1.Google Chrome   |- Responsiveness,appearance  | Pass
+ |                   | and game funtions looks     |	
+ |                   | good.                       |
+ | 2.Mozilla Firefox |- Responsiveness,appearance  | Pass
+ |       	         | and game function looks     |   
+ |               	 | good.                       |    
+ | 3.Safari          |- Responsiveness,appearance  | Pass
+ |                   | and game function looks     |
+ |                   | good.                       | 
+ | 4.Microsoft Edge  |- Responsiveness,appearance  | Pass
+ |                   | and game function looks     |
+ |                   | good.                       |
+ | 5.Opera           |- Responsiveness,appearance  | Pass
+ |                   | and game function looks     |
+ |                   | good.                       |
+ |                   |                             |
+ 
 
 
 
