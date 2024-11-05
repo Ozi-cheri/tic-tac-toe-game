@@ -11,15 +11,14 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [User Stories](#user-stories)
 - [Color Scheme](#color-scheme)
 - [Typography](#typography)
-- [Wireframe](#wireframe)
+- [Wireframes](#wireframes)
 - [How to Play](#how-to-play)
 - [Technologies Used](#technologies-used)
-- [Framework Libraries Tools Used](#framework-libraries-tools-used)
+- [Frameworks Libraries Tools Used](#frameworks-libraries-tools-used)
 - [Testing](#testing)
 - [Code Validation](#code-validation)
-- [Accessbility](#accessbility)
+- [Accessibility](#accessibility)
 - [Manual Testing](#manual-testing)
-- [Browser Compatibility](#browser-compatibility)
 - [Future Enhancements](#future-enhancements)
 - [Deployment](#deployment)
 - [Credit](#credit)
@@ -30,7 +29,7 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 
 ![Screenshot](assets/images/screenshot19.png)
 
-- **Header**: The header which is boldy written contains the of the website.
+- **Header**: The header which is boldy written contains the name  of the website.
 
 ![Screenshot](assets/images/screenshot3.png)
 
@@ -55,8 +54,9 @@ Reference image when a draw is achieved
 
 ![Screenshot](assets/images/screenshot15.png)
 
-- **Favicon**: A custom favicon has been included to enhance the game's branding. The favicon file is located in the /assets/favicon/ folder.
+- **Favicon**: A custom favicon has been included to enhance the game's branding. The favicon file is located in the /assets/favicon/folder.
 
+[Back to Top](#)
 
 ## User Experience
  * The game is designed to provide an intuitive and engaging user experience, with a clean layout and clear instructions. The game board is large and responsive, ensuring that players can easily click on the cells on both desktop,laptops,ipads and mobile devices. The current player's turn is displayed prominently, along with real-time score updates. An "Instructions" popup is available for new users making the game more engage and flexible to use.
@@ -117,7 +117,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 [Back to Top](#)
 
-## How To Play (Instructions)
+## How To Play 
  * When the instruction button is clicked, the how to play pops up.
  The game begins with Player o.Players take turns clicking on empty squares to place their marks (X or O).The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the round.If all squares are filled and no player has three in a row and vise versa, the game declares a draw.To start a new round, click the "Play Again" button. The scores remain, but the board resets for a new game to start.Players can keep track of their scores using the scoreboard above the game board. This section can be closed by using the **close button** below at the left corner.
 
@@ -130,7 +130,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 - **CSS3**: For styling the layout and making the game responsive across devices.
 - **JavaScript (ES6)**: For game logic, including turn-based play, score tracking, and result declaration.
 
-## Frameworks, Libraries, and Tools Used
+## Frameworks Libraries  Tools Used
 
 * This project leverages various technologies, programs, and validation tools to ensure functionality, style, and accessibility. Below are lists of the main tools used:
 
@@ -148,10 +148,12 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 
 
-[Back to Top](#) 
+ [Back to Top](#) 
  
+ ## Testing
 
- ## Testing User Stories
+
+ * Testing Game Board
 
 
 |User Story| Acceptance Criteria|    Test Case        |    Expected Result
@@ -181,7 +183,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 |          |                    |visible and clickable|
 
 
-## Code Validation
+ ## Code Validation
 
  * All HTML, CSS, and JavaScript codes for the Tic-Tac-Toe game has been validated using [W3C HTML Validator](https://validator.w3.org/)
  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
@@ -202,9 +204,9 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
  ## Accessibility 
 
  * Google Lighthouse                                                              [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
-was used to analyze the quality of the page focusing on performance, accessibility, SEO and best practices.  
+ was used to analyze the quality of the page focusing on performance, accessibility, SEO and best practices.  
 
-**lighthouse Reports**
+ ### lighthouse Reports
 
  * Home Page
 
@@ -214,15 +216,20 @@ was used to analyze the quality of the page focusing on performance, accessibili
 
  ![Screenshot](assets/images/screenshot5.png)
 
+
+ * Accessibility Testing with WAVE
+    * To ensure the Tic-Tac-Toe game is accessible to a wide range of users, I used the WAVE (Web Accessibility Evaluation Tool) to scan the game interface and identify any accessibility barriers. This included checking color contrast, image alt text, and HTML structure.
+
+![Screenshot](assets/images/screenshot16.png)
  
  [Back to Top](#) 
 
  ## Manual Testing
 
- **Browser Compatibility**
+### Browser Compatibility
 
 
- * The game was tested on both desktop and mobile versions of each browser to ensure responsive design and optimal functionality. Key functionalities like game board interactions, score display, the play gain and instruction buttons were verified in each browser.
+    *  The game was tested on both desktop and mobile versions of each browser to ensure responsive design and optimal functionality. Key functionalities like game board interactions, score display, the play gain and instruction buttons were verified in each browser.
 
  |  Browser          |  Outcome                    |   Result
  |-------------------|-----------------------------|-------------------
@@ -242,6 +249,40 @@ was used to analyze the quality of the page focusing on performance, accessibili
  |                   | and game function looks     |
  |                   | good.                       |
  |                   |                             |
+
+ ## Future Enhancements
+
+ * A functionality to store player scores locally using browser
+ storage will be added allowing players to track their game starts over multiple sessions.
+ * The user experience will be enhance by adding sound effects when placing markers and animations for game events like winning or drawing.
+
+ ## Deployment 
+
+ * The site was deployed to Github pages through the following steps.
+
+1.In the Github Repository, click on the setting tab at the top.
+ 
+2.Scroll down to the Pages section.
+
+3.From the Source section ,click the dropdown called none and select the main Branch and save.
+
+4.After a few moments, the page refreshes automatically and a link to the website is generated.
+
+The live site can be found here https://ozi-cheri.github.io/tic-tac-toe-game/
+
+
+ ### Local Clone
+ *   Sign up or log in on Gitup
+ *   Click the **code** button and copy the provided link.
+ *   Enter git clone in the terminal, paste the link and run.
+
+ git clone https://github.com/ozi-cheri/tic-tac-toe-game.git
+
+
+### How to Fork a Repository
+ * Go to the Repository, open the GitHub repository you want to fork.
+ * At the top-right corner, click the **Fork** button. This will create a copy of the repository under your GitHub account.
+
  
 
 
