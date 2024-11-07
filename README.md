@@ -14,8 +14,7 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Wireframes](#wireframes)
 - [How to Play](#how-to-play)
 - [Technologies Used](#technologies-used)
-- [Frameworks Libraries Tools Used](#frameworks-libraries-tools-used)
-- [Testing](#testing)
+- [Frameworks Libraries Tools Used]
 - [Code Validation](#code-validation)
 - [Accessibility](#accessibility)
 - [Manual Testing](#manual-testing)
@@ -145,6 +144,9 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 * [Gitpod](https://gitpod.io) : This was used for writting codes, commit and then pushed to Github.
 * [GitHub](https://github.com) : It was used to store the project after pushing.
 * [Balsamiq](https://balsamiq.com/) : This was used to create wireframes for both mobile and desktop versions.
+
+* [Coolors](https://coolors.co/) : This was used to generate a color palette.
+
 
 
 
