@@ -14,13 +14,13 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Wireframes](#wireframes)
 - [How to Play](#how-to-play)
 - [Technologies Used](#technologies-used)
-- [Frameworks Libraries Tools Used]
+- [Frameworks, Libraries And Tools](#frameworks-libraries-and-tools)
 - [Code Validation](#code-validation)
 - [Accessibility](#accessibility)
 - [Manual Testing](#manual-testing)
 - [Future Enhancements](#future-enhancements)
 - [Deployment](#deployment)
-- [Credit](#credit)
+- [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
 
 ## Features
@@ -53,7 +53,7 @@ Reference image when a draw is achieved
 
 ![Screenshot](assets/images/screenshot15.png)
 
-- **Favicon**: A custom favicon has been included to enhance the game's branding. The favicon file is located in the /assets/favicon/folder.
+- **Favicon**: A custom favicon has been included to enhance the game's branding. The favicon file is located in the assets/favicon/folder.
 
 [Back to Top](#)
 
@@ -129,7 +129,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 - **CSS3**: For styling the layout and making the game responsive across devices.
 - **JavaScript (ES6)**: For game logic, including turn-based play, score tracking, and result declaration.
 
-## Frameworks Libraries  Tools Used
+## Frameworks Libraries And Tools 
 
 * This project leverages various technologies, programs, and validation tools to ensure functionality, style, and accessibility. Below are lists of the main tools used:
 
@@ -228,10 +228,10 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
  ## Manual Testing
 
-### Browser Compatibility
+* Browser Compatibility
 
 
-    *  The game was tested on both desktop and mobile versions of each browser to ensure responsive design and optimal functionality. Key functionalities like game board interactions, score display, the play gain and instruction buttons were verified in each browser.
+  * The game was tested on both desktop and mobile versions of each browser to ensure responsive design and optimal functionality. Key functionalities like game board interactions, score display, the play gain and instruction buttons were verified in each browser.
 
  |  Browser          |  Outcome                    |   Result
  |-------------------|-----------------------------|-------------------
@@ -260,7 +260,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
  ## Deployment 
 
- * The site was deployed to Github pages through the following steps.
+The site was deployed to Github pages through the following steps.
 
 1.In the Github Repository, click on the setting tab at the top.
  
@@ -284,6 +284,10 @@ The live site can be found here https://ozi-cheri.github.io/tic-tac-toe-game/
 ### How to Fork a Repository
  * Go to the Repository, open the GitHub repository you want to fork.
  * At the top-right corner, click the **Fork** button. This will create a copy of the repository under your GitHub account.
+
+ ## Credits 
+
+ ## Code
 
  
 
