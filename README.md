@@ -287,9 +287,22 @@ The live site can be found here https://ozi-cheri.github.io/tic-tac-toe-game/
 
  ## Credits 
 
- ## Code
+ ### Content
 
- 
+ * [Bro Code Javascript Tutorial For Begginners](https://www.youtube.com/watch?v=Ihy0QziLDf0&list),
+ [Stack Overflow](https://stackoverflow.com/) and  [W3Schools](https://www.w3schools.com/) were consulted while i develop the project to gain more understanding of some codes.
+
+The idea for the instruction pop up was adapted from 
+[W3Schools](https://www.w3schools.com/howto/howto_js_popup.asp)
+and
+[W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp).
+
+
+## Acknowledgements
+
+ * Code insitute for the platform.
+ * My Mentor Gareth McGirr for his supports and feedbacks.
+
 
 
 
