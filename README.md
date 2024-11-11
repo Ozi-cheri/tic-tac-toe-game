@@ -247,11 +247,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
  | 4.Microsoft Edge  |- Responsiveness,appearance  | Pass
  |                   | and game function looks     |
  |                   | good.                       |
- | 5.Opera           |- Responsiveness,appearance  | Pass
- |                   | and game function looks     |
- |                   | good.                       |
- |                   |                             |
-
+ 
  ## Future Enhancements
 
  * A functionality to store player scores locally using browser
@@ -289,7 +285,7 @@ The live site can be found here https://ozi-cheri.github.io/tic-tac-toe-game/
 
  ### Content
 
- * [Bro Code Javascript Tutorial For Begginners](https://www.youtube.com/watch?v=Ihy0QziLDf0&list),
+ * [Bro Code Javascript Tutorial For Begginners](https://www.youtube.com/watch?v=Ihy0QziLDf0&list), [Openjavascript on YouTube](https://www.youtube.com/watch?v=cTe5vQAm2So),
  [Stack Overflow](https://stackoverflow.com/) and  [W3Schools](https://www.w3schools.com/) were consulted while i develop the project to gain more understanding of some codes.
 
 The idea for the instruction pop up was adapted from 
@@ -300,7 +296,7 @@ and
 
 ## Acknowledgements
 
- * Code insitute for the platform.
+ * Code institute for the platform.
  * My Mentor Gareth McGirr for his supports and feedbacks.
 
 
