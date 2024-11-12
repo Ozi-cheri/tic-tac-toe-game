@@ -255,6 +255,13 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
  storage will be added allowing players to track their game starts over multiple sessions.
  * The user experience will be enhance by adding sound effects when placing markers and animations for game events like winning or drawing.
 
+ ## Solved Bugs 
+
+ * After deploying to **Github**, I noticed that the title,play again button, instructions button,scoreboard were not well positioned on the page as intended.
+ The issue was due to missing and  incorrect Css styles. It was fixed by adding the appropriate Css rules to ensure they are all well positioned.
+
+ * The "How to Play" content, which explains the game instructions, was not properly displayed on the screen. The content overflowed the game board. I decided to adjust the css by adding modal box to display the content correctly.
+
  ## Deployment 
 
 The site was deployed to Github pages through the following steps.
