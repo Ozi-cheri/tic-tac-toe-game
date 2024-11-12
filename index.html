@@ -4,8 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links the external stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Meta Tags for SEO -->
+  <meta name="description" content="Tic-Tac-Toe Game, a fun game for two players">
+  <meta name="keywords" content="Tic-Tac-Toe, game, X, O, two-players, score, play again, instructions">
+
+
+  <!-- Title of the page displayed on the browser tab -->
   <title>Tic-Tac-Toe Game</title>
+
+  <!-- Favicons for various devices -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -14,17 +25,22 @@
 <body>
   <div class="container">
     <header>
+
+      <!-- Main heading for the game -->
       <h1>Tic-Tac-Toe Game</h1>
     </header>
     <main>
 
       <div class="game-box">
 
+        <!-- Scoreboard displaying players names and current scores -->
         <div class="scoreboard">
           <div class="player player-left">
             <h2>Player O</h2>
             <p>Score: <span id="playerO-score">0</span></p>
           </div>
+
+          <!-- Status of the game (whose turn it is) -->
           <div id="game-status">Player X's turn</div>
 
           <div class="player player-right">
@@ -33,6 +49,7 @@
           </div>
         </div>
 
+        <!-- Game board displayed as a grid of 9 cells -->
         <div class="board" id="board">
           <div class="cell" data-index="0"></div>
           <div class="cell" data-index="1"></div>
@@ -45,7 +62,7 @@
           <div class="cell" data-index="8"></div>
         </div>
 
-
+        <!-- Buttons for restarting the game and view instructions -->
         <div class="button-wrapper">
 
           <button id="restart-button">Play Again</button>
@@ -53,6 +70,7 @@
         </div>
       </div>
 
+      <!-- Popup modal for game instructions -->
       <div id="popup-instructions" class="hidden">
         <div class="instructions-content">
           <h3>How To Play</h3>
@@ -65,12 +83,15 @@
             If the cells are filled up and no one wins, the game is declared a draw.
             Click the Play Again button to reset the game.
           </p>
+
+          <!-- Button to close the instructions popup -->
           <button id="close-instructions-button">Close</button>
         </div>
       </div>
     </main>
   </div>
 
+  <!-- External JavaScript file -->
   <script src="assets/js/script.js"></script>
 </body>
 
