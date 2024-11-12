@@ -1,37 +1,38 @@
+/* Reset default styles for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
+/* General body styling */
 body {
   font-family: Arial, sans-serif;
   background-color: beige;
   color: black;
 }
 
-
+/* Centered container for the game */
 .container {
   max-width: 600px;
   margin: auto;
   padding: 20px;
 }
 
-
+/* Header styling */
 header {
   text-align: center;
   margin-bottom: 10px;
 }
 
-
+/* Main game area */
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-
+/* Game box that holds the board and scoreboard */
 .game-box {
   background-color: #eb4;
   padding: 30px;
@@ -39,6 +40,7 @@ main {
   position: relative;
 }
 
+/* Scoreboard layout: display players and their scores */
 .scoreboard {
   display: flex;
   justify-content: space-around;
@@ -46,12 +48,13 @@ main {
   margin-bottom: 20px;
 }
 
-
+/* Player section layout */
 .player {
   text-align: center;
   flex: 1;
 }
 
+/* Game status text (whose turn it is) */
 #game-status {
   text-align: center;
   font-size: 1.5em;
@@ -59,7 +62,7 @@ main {
   align-self: center;
 }
 
-
+/* Board layout: a 3x3 grid for the game */
 .board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -68,7 +71,7 @@ main {
   background-color: #333;
 }
 
-
+/* Style for individual cells in the grid */
 .cell {
   display: flex;
   justify-content: center;
@@ -79,18 +82,19 @@ main {
   cursor: pointer;
 }
 
+/* Style for individual cells in the grid */
 .cell:hover {
   background-color: #555;
 }
 
+/* Button styling */
 .button-wrapper {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-
-
+/* General button styling */
 button {
   padding: 10px 20px;
   border: none;
@@ -111,11 +115,12 @@ button {
   margin-right: 20px;
 }
 
+/* Button hover effect */
 button:hover {
   background-color: #555;
 }
 
-
+/* Styling for the instructions popup modal */
 #popup-instructions {
   position: fixed;
   top: 50%;
@@ -131,12 +136,12 @@ button:hover {
   z-index: 1000;
 }
 
-
+/* Hide the instructions popup by default */
 .hidden {
   display: none;
 }
 
-
+/* Styling for error page (404 page) */
 .error-container {
   display: flex;
   flex-direction: column;
@@ -166,7 +171,7 @@ button:hover {
   transition: background-color 0.3s ease;
 }
 
-
+/* Media query for smaller screen sizes (responsive design) */
 @media (max-width: 600px) {
   .board {
     width: 100%;

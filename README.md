@@ -3,7 +3,7 @@
 ![Screenshot](assets/images/screenshot1.png)
 
 ## Project Overview
-This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring a clean and responsive design. Players alternate between placing X and O on a 3x3 grid, with the game determining the winner based on standard Tic-Tac-Toe rules. The game also includes a scoreboard, player turn indicator, and a play again option. Additionally, there’s a custom 404 error page for handling none-existent pages.
+This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring a clean and responsive design. Players alternate between placing X and O on a 3x3 grid, with the game determining the winner based on standard Tic-Tac-Toe rules. The game also includes a scoreboard, player turn indicator, and a play again option. Additionally, there is  404 error page for handling none-existent pages and  a custom favicon to enhance the game branding.
 
 ## Table of Contents
 - [Features](#features)
@@ -21,7 +21,7 @@ This is a web-based Tic-Tac-Toe game designed for two players X and O, featuring
 - [Future Enhancements](#future-enhancements)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Acknowledgments](#acknowledgments)
+- [Acknowledgements](#acknowledgements)
 
 ## Features
 - **Two-player game**: Because it is a two player game,they alternates turns between themselves.It clearly indicates whose turn it is on the board
@@ -118,7 +118,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 ## How To Play 
  * When the instruction button is clicked, the how to play pops up.
- The game begins with Player o.Players take turns clicking on empty squares to place their marks (X or O).The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the round.If all squares are filled and no player has three in a row and vise versa, the game declares a draw.To start a new round, click the "Play Again" button. The scores remain, but the board resets for a new game to start.Players can keep track of their scores using the scoreboard above the game board. This section can be closed by using the **close button** below at the left corner.
+ The game begins with Player x's turn.Players take turns clicking on empty squares to place their marks (X or O).The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins the round.If all squares are filled and no player has three in a row and vise versa, the game declares a draw.To start a new round, click the "Play Again" button. The scores remain, but the board resets for a new game to start.Players can keep track of their scores using the scoreboard above the game board. This section can be closed by using the **close button** below at the left corner.
 
  ![Screenshot](assets/images/screenshot2.png)
 
@@ -127,7 +127,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
 - **HTML5**: For structuring the content of the game.
 - **CSS3**: For styling the layout and making the game responsive across devices.
-- **JavaScript (ES6)**: For game logic, including turn-based play, score tracking, and result declaration.
+- **JavaScript**: For game logic, including turn-based play, score tracking, and result declaration.
 
 ## Frameworks Libraries And Tools 
 
@@ -201,6 +201,7 @@ Scoreboard, player o,x and player's turn section inherits the game-box, #eb4 bac
 
  * JavaScript Validation
 
+ ![Screenshot](assets/images/screenshot21.png)
 
 
  ## Accessibility 
@@ -293,6 +294,7 @@ The idea for the instruction pop up was adapted from
 and
 [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp).
 
+[Back to Top](#)
 
 ## Acknowledgements
 
